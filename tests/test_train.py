@@ -1,4 +1,4 @@
-from back.trainning import get_train_data, train_cluster
+from back.trainning import get_train_data
 
 
 def test_get_train_data(client, session):
@@ -18,7 +18,7 @@ def test_get_train_data(client, session):
 def test_train_data(client, session):
 
     with open("events.txt", "r") as f:
-        for i, line in enumerate(f.readlines()):
+        for line in f.readlines():
                 client.post("/upload", data=line)
 
     response = client.get("/upload")

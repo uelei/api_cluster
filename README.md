@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/uelei/api_cluster.svg?style=svg)](https://circleci.com/gh/uelei/api_cluster)
+[![CircleCI](https://circleci.com/gh/uelei/api_cluster.svg?style=svg)](https://circleci.com/gh/uelei/api_cluster) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/3cdc4e77e106428199370c83999d1e1a)](https://www.codacy.com/app/uelei/api_cluster?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=uelei/api_cluster&amp;utm_campaign=Badge_Grade)
 # api_cluster
 
 ## Pre Install

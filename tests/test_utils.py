@@ -90,7 +90,7 @@ def test_parse_number():
 
     assert value == '11.2'
 
-def test_parse_number():
+def test_parse_string():
     value = parse_string("10.2")
 
     assert value == "10.2"
