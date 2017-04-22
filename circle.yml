@@ -7,7 +7,7 @@ dependencies:
     - pip install -r requirements.txt
 test:
   override:
-    - "py.test --cov back -vv tests  --junitxml=$CIRCLE_TEST_REPORTS/coverage.xml"
+    - "py.test --cov back -vv tests  --cov-report=xml:$CIRCLE_TEST_REPORTS/coverage.xml"
   post:
     - pip install codacy-coverage
     - "python-codacy-coverage -r $CIRCLE_TEST_REPORTS/coverage.xml"
